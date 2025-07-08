@@ -1,0 +1,6 @@
+displayName = Skip Intro
+author = morpe
+version = 0.1
+side = Client
+includeSource = true
+buildIgnore = Patcher

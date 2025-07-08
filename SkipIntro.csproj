@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="Patcher\**" />
+	  <Compile Remove="Patcher\**" />
+	  <EmbeddedResource Remove="Patcher\**" />
+	  <None Remove="Patcher\**" />
+	</ItemGroup>
+
+	<!-- References -->
+
+</Project>
